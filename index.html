@@ -5,26 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Learning</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+    </style>
   </head>
   <body>
-    <div class="container mt-5">
-        <h1>Hello, world!</h1>
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                    <div class="card-header bg-dark text-light">
-                        <h1>Test</h1>
-                    </div>
-                    <div class="card-body bg-secondary">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ad doloremque quibusdam, dolor praesentium doloribus quae, 
-                        voluptatum nam, reprehenderit iure minus eum? Libero, voluptates quas! Eligendi modi veritatis error magnam?
-                    </div>
-                </div>
-            </div>
-            <div class="col"></div>
-            <div class="col"></div>
+    <nav class="ch-navbar navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase mx-4 py-3" href="#">Un restaurant</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-4">
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#">Découvrir</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link">Les classiques</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="btn btn-order rounded-0" href="#">Passer la commande</a>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </nav>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
